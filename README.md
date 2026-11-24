@@ -10,6 +10,10 @@ More information about the hardware and project background is available at [spec
   <img src="https://spectral-explorer.de/wp-content/uploads/2018/03/Rev6-7.jpg" alt="Spectral-Explorer Hardware" width="100%" />
 </p>
 
+## Web App (Chromebook, Mac, PC)
+
+A browser version of the software lives in [`web/`](web/). It needs no installation and runs anywhere Chrome, Edge, Firefox or Safari does, including Chromebooks. It is deployed to GitHub Pages by [`.github/workflows/deploy-web.yml`](.github/workflows/deploy-web.yml). See [`web/README.md`](web/README.md) for details.
+
 ## Overview
 
 * **Measurement range:** 400–650 nm (visible spectrum)
